@@ -44,4 +44,12 @@ body {
     height: 35vh;
 }
 
+.formContainer {
+    display: flex;
+    flex-direction: row;
+}
 
+label, input {  /** makes the labels above the inputs**/
+    display: flex;
+    flex-direction: column;
+}

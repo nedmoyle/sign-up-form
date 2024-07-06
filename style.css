@@ -23,25 +23,36 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+   
 
 }
 
 .right {
     display: flex;
     flex-direction:column;
-    width: 50vw;
+    width: 65vw;
+
 }
 
 .first {
     height: 35vh;
+    padding-top: 10vh;
+    background-color: whitesmoke;
+    padding-left: 5vw;
 }
 
 .second {
     height: 30vh;
+    padding-left: 5vw;
+    
 }
 
 .third {
     height: 35vh;
+    background-color: whitesmoke;
+    padding-left: 5vw;
+    box-shadow: 0 5px 10px -10px inset;
+
 }
 
 .formContainer {
@@ -49,7 +60,25 @@ body {
     flex-direction: row;
 }
 
-label, input {  /** makes the labels above the inputs**/
+label, input {  /** makes the label text sit above the inputs**/
     display: flex;
     flex-direction: column;
+}
+
+input {
+    /* border-radius: 2px; */
+ border: 1px solid lightgray;
+ border-radius: 5px;
+ height: 2em;
+ width: 20em;
+ margin-bottom: 30px;
+}
+
+label {
+    font-size:small;
+    font-family: sans-serif;
+}
+
+.leftForm {
+    margin-right: 5vw;
 }

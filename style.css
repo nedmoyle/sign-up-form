@@ -23,6 +23,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-size:7.5em
    
 
 }
@@ -35,8 +36,8 @@ body {
 }
 
 .first {
-    height: 30vh;
-    padding-top: 10vh;
+    height: 35vh;
+    /* padding-top: 10vh; */
     background-color: whitesmoke;
     padding-left: 5vw;
 }
@@ -52,7 +53,7 @@ body {
     background-color: whitesmoke;
     padding-left: 5vw;
     box-shadow: 0 5px 10px -10px inset;
-    padding-top: 2vh;
+
 
 }
 
@@ -103,4 +104,37 @@ button {
     height: 40px;
     width: 200px;
     box-shadow: 5px 5px 5px #E5E7EB;
+    margin-top: 2vh;
+
 }
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 1.5em;
+    margin-top: 200px;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.odinImg {
+    height: 1em;
+}
+
+h2 {
+    margin: 0;
+}
+
+.first h2 {
+    padding-top: 10vh;
+}
+
+.second h2 {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+

@@ -35,7 +35,7 @@ body {
 }
 
 .first {
-    height: 35vh;
+    height: 30vh;
     padding-top: 10vh;
     background-color: whitesmoke;
     padding-left: 5vw;
@@ -52,6 +52,7 @@ body {
     background-color: whitesmoke;
     padding-left: 5vw;
     box-shadow: 0 5px 10px -10px inset;
+    padding-top: 2vh;
 
 }
 
@@ -66,12 +67,11 @@ label, input {  /** makes the label text sit above the inputs**/
 }
 
 input {
-    /* border-radius: 2px; */
- border: 1px solid lightgray;
- border-radius: 5px;
- height: 2em;
- width: 20em;
- margin-bottom: 30px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    height: 2em;
+    width: 20em;
+    margin-bottom: 30px;
 }
 
 label {
@@ -81,4 +81,26 @@ label {
 
 .leftForm {
     margin-right: 5vw;
+}
+
+input:focus {
+    outline: 1px solid blue;
+    box-shadow: 5px 5px 5px #E5E7EB;
+}
+
+.password input:invalid {
+    outline: 1px solid red;
+    box-shadow: 5px 5px 5px #E5E7EB;
+}
+
+button {
+    background-color: #596D48;
+    font-size:medium;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    box-shadow: 5px 5px 5px #E5E7EB;
 }
